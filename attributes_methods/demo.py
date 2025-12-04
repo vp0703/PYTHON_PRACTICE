@@ -1,7 +1,7 @@
 #Example 1:Basic String
 
 class Cars:
-    brand = "BMW"   #attributes
+    brand = "BMW,"   #attributes
     color = "Black" #attributes
     def show(self): #method
         print(self.brand, self.color)
