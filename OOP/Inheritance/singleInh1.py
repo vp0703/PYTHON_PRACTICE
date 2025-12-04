@@ -7,8 +7,9 @@ class Vehicle:
 
 class Car(Vehicle):
     def __init__(self, brand, year, model):
-        super().__init__(brand, year)
         self.model = model
+        super().__init__(brand, year)
+        
 
     def show(self):
         print(f'{self.brand}, \n{self.year}, \n{self.model}')
