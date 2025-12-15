@@ -1,7 +1,6 @@
 #12/12/25
 
-"""Q1 - Given two integer numbers, write a Python program to return their product only if 
-the product is equal to or lower than 1000. Otherwise, return their sum"""
+"""Q1 - Given two integer numbers, write a Python program to return their product only if the product is equal to or lower than 1000. Otherwise, return their sum"""
 
 def pronum(num1, num2):
     product = num1*num2
@@ -18,8 +17,7 @@ d = pronum(40, 30)
 
 
 
-"""Q2 - Write Python code to iterate through the first 10 numbers and, in each iteration, 
-print the sum of the current and previous number."""
+"""Q2 - Write Python code to iterate through the first 10 numbers and, in each iteration, print the sum of the current and previous number."""
 
 print ("Printing current and previous number sum in a range (10)")
 pre = 0
@@ -42,9 +40,7 @@ for i in range (1, 11):
 
 
 
-"""Q3 - Write a Python code to accept a string from the user and display characters present 
-at an even index number.
-For example, str = "PYnative". so your code should display ‘P’, ‘n’, ‘t’, ‘v’."""
+"""Q3 - Write a Python code to accept a string from the user and display characters present at an even index number. For example, str = "PYnative". so your code should display ‘P’, ‘n’, ‘t’, ‘v’."""
 
 w = list(input("Enter a word :"))
 print ("original String:", w)
@@ -61,8 +57,7 @@ for i in w[0::2]:
 
 
 
-"""Q4 - Write a Python code to remove characters from a string from 0 to n and return a 
-new string."""
+"""Q4 - Write a Python code to remove characters from a string from 0 to n and return a new string."""
 
 def remove_char(w, n):
     print("original string:", w)
@@ -77,8 +72,7 @@ print(remove_char("pynative", 2))
 
 
 
-"""Q5 - Write a code to return True if the list’s first and last numbers are the same. 
-If the numbers are different, return False"""
+"""Q5 - Write a code to return True if the list’s first and last numbers are the same. If the numbers are different, return False"""
 
 num = list(input().split())
 if(num[0] == num[-1]):
@@ -143,8 +137,7 @@ for i in range (5, 0, -1):
 
 
 
-"""Q10 -Given two lists of numbers, write Python code to create a new list containing odd
- numbers from the first list and even numbers from the second list. """
+"""Q10 -Given two lists of numbers, write Python code to create a new list containing odd numbers from the first list and even numbers from the second list. """
 
 lst1 = input()
 lst2 = input()
@@ -167,9 +160,7 @@ print(res)
 
 
 
-"""Q11 - The multiplication table from 1 to 10 is a table that shows the products of numbers from 1 to 10.
-
-Write a code to generates a complete multiplication table for numbers 1 through 10"""
+"""Q11 - The multiplication table from 1 to 10 is a table that shows the products of numbers from 1 to 10. Write a code to generates a complete multiplication table for numbers 1 through 10"""
 
 for n in range(1, 11):
     for i in range(1, 11):
@@ -236,9 +227,7 @@ print(caps(txt))
 
 
 
-"""Q14 - Write a code to create a simple countdown timer of seconds using a while loop, take input for number of seconds from user.
-
-Once the timer finishes (when the remaining time reaches zero), print a “Time’s up!” message."""
+"""Q14 - Write a code to create a simple countdown timer of seconds using a while loop, take input for number of seconds from user. Once the timer finishes (when the remaining time reaches zero), print a “Time’s up!” message."""
 
 import time
 def timer(sec):
@@ -263,7 +252,3 @@ timer(drn)
 #       Time remaining : 2 seconds
 #       Time remaining : 1 seconds
 #       Time's up!!
-
-
-
-"""Q15 - """
